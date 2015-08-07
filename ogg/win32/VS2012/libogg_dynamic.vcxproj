@@ -123,6 +123,7 @@
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <AndroidAPILevel>android-8</AndroidAPILevel>
     <AndroidArch>armv7-a</AndroidArch>
+    <AndroidStlType>stlport_static</AndroidStlType>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugS|Android-x86'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
@@ -141,6 +142,7 @@
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <AndroidAPILevel>android-8</AndroidAPILevel>
     <AndroidArch>armv7-a</AndroidArch>
+    <AndroidStlType>stlport_static</AndroidStlType>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseS|Android-x86'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>

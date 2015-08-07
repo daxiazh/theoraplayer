@@ -498,6 +498,7 @@
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <AndroidArch>armv7-a</AndroidArch>
+    <AndroidStlType>stlport_static</AndroidStlType>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Static|Android-x86'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
@@ -522,6 +523,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Static|Android'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <AndroidArch>armv7-a</AndroidArch>
+    <AndroidStlType>stlport_static</AndroidStlType>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Static|Android-x86'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
