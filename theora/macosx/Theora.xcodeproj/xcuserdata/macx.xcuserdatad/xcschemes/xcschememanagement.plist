@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>theora (Mac).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
+		<key>theora (iOS).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
+		<key>theora.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8D07F2BC0486CC7A007CD1D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D1BB6F7D150E9CFD00EF9400</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D1F279B9177A2B3400E5C131</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
