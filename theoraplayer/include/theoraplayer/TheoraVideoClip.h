@@ -83,8 +83,7 @@ protected:
 	
 	int mSeekFrame; //! stores desired seek position as a frame number. next worker thread will do the seeking and reset this var to -1
 	float mDuration, mFrameDuration;
-	float mPriority; //! User assigned priority. Default value is 1
-	std::string mName;
+	float mPriority; //! User assigned priority. Default value is 1	
 	int mWidth, mHeight, mStride;
 	int mNumFrames;
 	float mFPS;
@@ -100,6 +99,8 @@ protected:
 
 	TheoraMutex* mAudioMutex; //! syncs audio decoding and extraction
 	TheoraMutex* mThreadAccessMutex;
+
+	std::string mName;
 	
 	/**
 	 * Get the priority of a video clip. based on a forumula that includes user

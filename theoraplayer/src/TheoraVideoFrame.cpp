@@ -71,7 +71,7 @@ TheoraVideoFrame::TheoraVideoFrame(TheoraVideoClip* parent)
 	// number of bytes based on output mode
 	int bytemap[] = {0, 3, 4, 4, 4, 4, 3, 4, 4, 4, 4, 1, 3, 4, 4, 4, 4, 3, 4, 4, 4, 4};
 	mBpp = bytemap[mParent->getOutputMode()];
-    int nStride = mParent->getStride();
+	int nStride = mParent->mStride;
     int nHeight = mParent->mHeight;
 	unsigned int size = nStride * nHeight * mBpp;
 	try
